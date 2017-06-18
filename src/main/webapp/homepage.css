@@ -1,0 +1,11 @@
+#shizen {
+	position:absolute;
+	margin-top:200px;
+	margin-left:30px;
+	width:250px;
+	height:200px;
+}
+
+body {
+	background-color:#494a48;
+}

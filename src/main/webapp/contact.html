@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="bootstrap.css">
+<link rel="stylesheet" type="text/css" href="contact.css">
+</head>
+<title>Contact</title>
+<body>
+	<form>
+		<nav class="navbar navbar-default">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed"
+						data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+						<span class="sr-only">Toggle navigation</span> <span
+							class="icon-bar"></span> <span class="icon-bar"></span> <span
+							class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#">Contact</a>
+				</div>
+
+				<div class="collapse navbar-collapse"
+					id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav">
+						<li><a href="homepage.html">Homepage</a></li>
+						<li><a href="reserveren.html">Reserveren</a></li>
+						<li><a href="delreservering.html">Reservering annuleren</a></li>
+						<li><a href="menu.html">Menu</a></li>
+						<li><a href="review.html">Review</a></li>
+						<li class="active"><a href="contact.html">Contact<span
+								class="sr-only">(current)</span></a></li>
+
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</form>
+	<div class="panel panel-default">
+		<div class="panel-body">
+			<h2>Contact</h2>
+			<p>Telefoonnummer: 030 2751066</p>
+			<p>E-mail: Shizen@restaurant.nl</p>
+		</div>
+		<div class="panel-body">
+			<h2>Openingstijden</h2>
+			<p>Lunch</p>
+			<p>maandag t/m zondag 12:00 – 16:30</p>
+			<p>Diner</p>
+			<p>maandag t/m donderdag 16:30 – 22:00</p>
+			<p>vrijdag t/m zondag 16:30</p>
+		</div>
+	</div>
+
+	<div id="map" style="width:400px;height:400px;margin-left:30px;">My map will go here</div>
+
+	<script>
+		function myMap() {
+			var mapOptions = {
+				center : new google.maps.LatLng(51.9817458, 5.0918164),
+				zoom : 16,
+				mapTypeId : google.maps.MapTypeId.HYBRID
+			}
+			var map = new google.maps.Map(document.getElementById("map"),
+					mapOptions);
+		}
+	</script>
+	
+	<script src="https://maps.googleapis.com/maps/api/js?
+		key=AIzaSyCIWp5VPH4hn78kYI9ONjD3zuYI-oZWrjE&callback=myMap"></script>
+
+</body>
+</html>

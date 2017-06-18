@@ -1,0 +1,20 @@
+.form-group {
+	width:300px;
+	margin-left:30px;
+	color:white;
+}
+
+.secondrow {
+	position:absolute;
+	margin-left:400px;
+	top:85px;
+}
+
+.firstrow {
+	position:absolute;
+	top:85px;
+}
+
+body {
+	background-color:#494a48;
+}

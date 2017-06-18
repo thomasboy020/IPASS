@@ -1,0 +1,15 @@
+.col-lg-10 {
+	postion:absolute;
+	left:-31px;
+	margin-top:70px;
+}
+
+.form-group {
+	width:60px;
+	color:white;
+	margin-left:0px;
+}
+
+body {
+	background-color:#494a48;
+}

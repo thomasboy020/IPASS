@@ -1,0 +1,13 @@
+h2{
+	font-size:17px;
+	font-weight:bold;
+}
+
+.panel.panel-default{
+	margin-left:30px;
+	width:800px;
+}
+
+body {
+	background-color:#494a48;
+}
